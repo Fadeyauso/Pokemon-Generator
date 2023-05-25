@@ -1,0 +1,28 @@
+import random
+import time
+
+print("Welcome to Pokemon generator bruh bruh")
+name = input("Type the name of your pokemon:")
+attack = random.randint(1, 255)
+speed = random.randint(10, 140)
+defense = random.randint(30, 250)
+hp = random.randint(40, 240)
+elements = ["water", "earth", "fire", "grass", "ice", "dark", "psychic"]
+element = random.choice(elements)
+print("Generating attack stat...")
+time.sleep(3)
+print("Generating speed stat...")
+time.sleep(3)
+print("Generating defense stat...")
+time.sleep(3)
+print("Generating hp...")
+time.sleep(3)
+print("Generating type...")
+time.sleep(3)
+print("Congratulations. here is your pokemon:")
+print("Name:", name)
+print("Health:",hp)
+print("Attack:",attack)
+print("Defense:",defense)
+print("Speed:",speed)
+print("Type:",element)
